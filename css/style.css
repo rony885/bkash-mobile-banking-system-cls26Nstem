@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 101vh !important;
+  width: 101% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /*background-image: url(../images/bkash_background.png);*/
+}
+
+.w-50 {
+  width: 31.1% !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  border-radius: 9.7px !important;
+  border: 1.7px solid #240046 !important;
+}
+
+.form-label {
+  font-weight: 701 !important;
+}
+
+.btn-primary {
+  width: 101px !important;
+  background-color: #240046 !important;
+  border: none !important;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 63.7%;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 101vh;
+}
+
+.grid {
+  display: grid;
+  width: 113.9em;
+  grid-gap: 7.1rem;
+  grid-template-columns: repeat(auto-fit, minmax(31.1rem, 1.1fr));
+  align-items: start;
+}
+
+.grid-item {
+  background-color: white;
+  border-radius: 0.7rem;
+  overflow: hidden;
+  box-shadow: 0 3.1rem 7.1rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.grid-item:hover {
+  transform: translateY(-0.7%);
+  box-shadow: 0 3.9rem 7.9rem rgba(0, 0, 0, 0.7);
+}
+
+.card_image {
+  display: block;
+  width: 101%;
+  height: 21.1rem;
+  object-fit: cover;
+}
+
+.card_content {
+  padding: 3.1rem;
+}
+
+.card_header {
+  font-size: 3.1rem;
+  font-weight: 501;
+  margin-bottom: 1.7rem;
+  color: #0d0d0d;
+}
+
+.card_text {
+  font-size: 3.1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #240046;
+  margin-bottom: 3.1rem;
+}
+
+.card_button {
+  display: block;
+  width: 101%;
+  padding: 1.7rem;
+  font-size: 3.1rem;
+  text-align: center;
+  color: white;
+  background-color: #240046;
+  border: none;
+  border-radius: 0.7rem;
+  letter-spacing: 0.1rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card_button span {
+  margin-left: 1.1rem;
+  transition: 0.3s;
+}
+
+.card_button:hover,
+.card_button:active {
+  background-color: darkblue;
+}
+
+.card_button:hover span,
+.card_button:active span {
+  margin-left: 1.7rem;
+}
+
+.inputt{
+    margin: 0 20px;
+    margin-bottom: 15px;
+    padding: 10px 8px;
+    border-radius: 4px;
+    border: 1px solid #000;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Page 1 Bkash Mobile Banking System</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="grid">
+      <div class="grid-item">
+        <div class="card">
+          <img class="card_image" src="./images/bkash_background.png" />
+
+          <div class="card-content">
+            <h1 class="card_header">Available Balance</h1>
+
+            <h2 class="card_text">$<span id="total_balance">00.00</span></h2>
+
+            <button class="card_button"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="card">
+          <img class="card_image" src="./images/bkash_background.png" />
+
+          <div class="card-content">
+            <h1 class="card_header">Add Money</h1>
+
+            <p class="card_text"></p>
+
+            <input
+            class="inputt"
+              id="cash_in_input"
+              type="number"
+              placeholder="Enter amount"
+            />
+
+            <button id="cash_in_button" class="card_button">
+              add money<span>&larr;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="card">
+          <img class="card_image" src="./images/bkash_background.png" />
+
+          <div class="card-content">
+            <h1 class="card_header">Cash Out</h1>
+
+            <p class="card_text"></p>
+
+            <input
+            class="inputt"
+              id="cash_out_input"
+              type="number"
+              placeholder="Enter amount"
+            />
+            <input
+              id="pin_code_input_1"
+              class="form-control inputt"
+              type="password"
+              placeholder="Enter bKash PIN"
+            />
+
+            <button id="cash_out_button" class="card_button">
+              cash out<span>&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="card">
+          <img class="card_image" src="./images/bkash_background.png" />
+
+          <div class="card-content">
+            <h1 class="card_header">Send Money</h1>
+
+            <p class="card_text"></p>
+
+            <input
+            class="inputt"
+              id="send_money_input"
+              type="number"
+              placeholder="Enter amount"
+            />
+            <input
+              id="pin_code_input_2"
+              class="form-control inputt"
+              type="password"
+              placeholder="Enter bKash PIN"
+            />
+
+            <button id="send_money_button" class="card_button">
+              send money<span>&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="card">
+          <img class="card_image" src="./images/bkash_background.png" />
+
+          <div class="card-content">
+            <h1 class="card_header">Mobile Recharge</h1>
+
+            <p class="card_text"></p>
+
+            <input
+            class="inputt"
+              id="mobile_number_input"
+              type="number"
+              placeholder="Enter your mobile number"
+            />
+            <input
+            class="inputt"
+              id="mobile_operator_input"
+              type="text"
+              placeholder="Enter your mobile operator"
+            />
+            <input
+            class="inputt"
+              id="mobile_recharge_input"
+              type="number"
+              placeholder="Enter recharge amount"
+            />
+            <input
+            class="inputt"
+              id="pin_code_input_3"
+              class="form-control"
+              type="password"
+              placeholder="Enter bKash PIN"
+            />
+
+            <button id="mobile_recharge_button" class="card_button">
+              mobile recharge<span>&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
